@@ -1,0 +1,31 @@
+@import "global";
+@import "config";
+@import "mobile";
+@import "tablet";
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  background-color: $bg-color-1;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+
+  ul {
+    width: 35%;
+  }
+
+  .nav-link {
+    color: #fff;
+  }
+
+  .navbar-brand {
+    color: $text-color-1;
+
+    span {
+      display: block;
+      padding-left: 0.5rem;
+    }
+  }
+}

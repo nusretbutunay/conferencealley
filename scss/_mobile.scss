@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+
+    .navbar-nav {
+      margin-top: 1rem;
+      width: 60%;
+      border: 1px solid red;
+    }
+  }
+}

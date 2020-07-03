@@ -1,0 +1,39 @@
+.wrapper {
+  max-width: 95%;
+  margin: 0 auto;
+  width: 95%;
+  height: 300px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.px-5 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
