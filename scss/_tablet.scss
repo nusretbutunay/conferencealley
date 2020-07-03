@@ -2,4 +2,21 @@
   .display-none {
     display: none;
   }
+
+  main {
+    .content {
+      grid-template-columns: 1fr;
+      padding-top: 5rem;
+    }
+
+    .bottom {
+      .bottom-nav-links {
+        justify-content: stretch;
+
+        .bottom-link {
+          margin-left: 10vw;
+        }
+      }
+    }
+  }
 }
