@@ -29,6 +29,10 @@
   justify-content: space-between;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -36,4 +40,8 @@
 .px-5 {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+.z-1 {
+  z-index: 1;
 }
