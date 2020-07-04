@@ -70,6 +70,11 @@
   width: 100%;
 }
 
+.py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .px-5 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -141,7 +146,7 @@ body {
 }
 
 .top-nav .navbar-brand {
-  color: #fff;
+  color: #ccc;
 }
 
 .top-nav .navbar-brand span {
@@ -208,7 +213,7 @@ main .showcase .search-area .search-form .search-btn {
   padding: 0.5rem 1rem;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  color: #fff;
+  color: #ccc;
   border: 0;
 }
 
@@ -225,7 +230,7 @@ main .showcase .call-to-action-btn {
 
 main .showcase .call-to-action-btn:hover {
   background-color: #666;
-  color: #fff;
+  color: #ccc;
 }
 
 main .content {
@@ -244,6 +249,7 @@ main .content h2 {
   grid-column: 1 / -1;
   text-align: center;
   color: #d35749;
+  padding-bottom: 2rem;
 }
 
 main .content i,
@@ -251,12 +257,59 @@ main .content h5 {
   margin: 0.8rem 0;
 }
 
+main .detailed-content div * {
+  margin-bottom: 1rem;
+}
+
+main .detailed-content button {
+  padding: 0.3rem 0.6rem;
+  margin-top: 1rem;
+  background-color: #fff;
+  border: 0;
+  outline: none;
+  border-radius: 2px;
+}
+
+main .detailed-content .detail-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+main .detailed-content.detailed-a {
+  background-color: #d35749;
+}
+
+main .detailed-content.detailed-a .detailed-btn-a {
+  color: #d35749;
+}
+
+main .detailed-content.detailed-a .detailed-btn-a:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+main .detailed-content.detailed-b {
+  background-color: #99a5a6;
+}
+
+main .detailed-content.detailed-b .detailed-btn-b {
+  color: #519cd8;
+}
+
+main .detailed-content.detailed-b .detailed-btn-b:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+main .detailed-content.detailed-c {
+  background-color: #519cd8;
+}
+
 main .bottom {
   background-color: #000;
   padding-top: 3rem;
   padding-bottom: 3rem;
   width: 100%;
-  color: #fff;
+  color: #ccc;
 }
 
 main .bottom .bottom-nav {
@@ -278,7 +331,7 @@ main .bottom .bottom-nav img {
 }
 
 main .bottom .bottom-nav .bottom-link {
-  color: #fff;
+  color: #ccc;
 }
 
 main .bottom .bottom-nav .bottom-link:hover {
@@ -297,7 +350,7 @@ main .bottom .bottom-content .subscribe .subscribe-form .email-bar {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   padding: 0.4rem 3rem 0.4rem 0.5rem;
-  color: #fff;
+  color: #ccc;
 }
 
 main .bottom .bottom-content .subscribe .subscribe-form .email-bar:focus {
@@ -310,7 +363,7 @@ main .bottom .bottom-content .subscribe .subscribe-form .send-btn {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   padding: 0.4rem 1.5rem 0.4rem 1.5rem;
-  color: #fff;
+  color: #ccc;
 }
 
 main .bottom .bottom-content .subscribe .subscribe-form .send-btn:hover {

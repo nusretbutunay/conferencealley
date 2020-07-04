@@ -124,11 +124,61 @@ main {
       grid-column: 1 / -1;
       text-align: center;
       color: $text-color-3;
+      padding-bottom: 2rem;
     }
 
     i,
     h5 {
       margin: 0.8rem 0;
+    }
+  }
+
+  .detailed-content {
+    div * {
+      margin-bottom: 1rem;
+    }
+
+    button {
+      padding: 0.3rem 0.6rem;
+      margin-top: 1rem;
+      background-color: $bg-color-3;
+      border: 0;
+      outline: none;
+      border-radius: 2px;
+    }
+
+    .detail-image {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+    }
+
+    &.detailed-a {
+      background-color: $bg-color-1;
+
+      .detailed-btn-a {
+        color: $text-color-3;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.7);
+        }
+      }
+    }
+
+    &.detailed-b {
+      background-color: #99a5a6;
+
+      .detailed-btn-b {
+        color: $text-color-4;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.7);
+        }
+      }
+    }
+
+    &.detailed-c {
+      background-color: $bg-color-2;
     }
   }
 
