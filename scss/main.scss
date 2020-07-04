@@ -76,7 +76,7 @@ main {
         margin-top: 0.2rem;
 
         .search-bar {
-          padding: 0.5rem 7.5rem;
+          padding: 0.711rem 7.5rem 0.54rem 7.5rem;
           border-bottom-left-radius: 4px;
           border-top-left-radius: 4px;
           background-color: $bg-color-3;
@@ -290,5 +290,6 @@ footer {
   }
 }
 
+@import "search";
 @import "mobile";
 @import "tablet";
