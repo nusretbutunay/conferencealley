@@ -57,7 +57,7 @@ main {
       width: 100%;
       content: "";
       background-color: #000;
-      opacity: 0.6;
+      opacity: 0.7;
     }
 
     h1 {
@@ -124,10 +124,6 @@ main {
       text-align: center;
       color: $text-color-3;
       padding-bottom: 2rem;
-
-      @media screen and (min-width: 1024px) {
-        display: none;
-      }
     }
 
     i,

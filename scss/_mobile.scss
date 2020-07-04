@@ -17,15 +17,19 @@
     .showcase {
       height: 100vh;
 
+      h1 {
+        max-width: 90%;
+      }
+
       .search-area {
         padding: 2rem 2rem 2rem 0.6rem;
         margin: 0 auto;
         margin-top: 1rem;
-        width: 400px;
+        width: 80%;
 
         .search-form {
           .search-bar {
-            padding: 0.5rem 4rem;
+            width: 80%;
           }
 
           .search-btn {

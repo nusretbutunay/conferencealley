@@ -177,7 +177,7 @@ main .showcase::before {
   width: 100%;
   content: "";
   background-color: #000;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 main .showcase h1 {
@@ -249,12 +249,6 @@ main .content h2 {
   text-align: center;
   color: #d35749;
   padding-bottom: 2rem;
-}
-
-@media screen and (min-width: 1024px) {
-  main .content h2 {
-    display: none;
-  }
 }
 
 main .content i,
@@ -427,14 +421,17 @@ footer p {
   main .showcase {
     height: 100vh;
   }
+  main .showcase h1 {
+    max-width: 90%;
+  }
   main .showcase .search-area {
     padding: 2rem 2rem 2rem 0.6rem;
     margin: 0 auto;
     margin-top: 1rem;
-    width: 400px;
+    width: 80%;
   }
   main .showcase .search-area .search-form .search-bar {
-    padding: 0.5rem 4rem;
+    width: 80%;
   }
   main .showcase .search-area .search-form .search-btn {
     padding: 0.5rem 0.4rem;
