@@ -115,15 +115,14 @@ main {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     padding-top: 2rem;
-    padding-bottom: 4rem;
-    grid-column-gap: 10%;
+    padding-bottom: 6rem;
+    grid-gap: 10%;
     text-align: center;
 
     h2 {
       grid-column: 1 / -1;
       text-align: center;
       color: $text-color-3;
-      padding-bottom: 2rem;
     }
 
     i,

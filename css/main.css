@@ -239,8 +239,8 @@ main .content {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 2rem;
-  padding-bottom: 4rem;
-  grid-column-gap: 10%;
+  padding-bottom: 6rem;
+  grid-gap: 10%;
   text-align: center;
 }
 
@@ -248,7 +248,6 @@ main .content h2 {
   grid-column: 1 / -1;
   text-align: center;
   color: #d35749;
-  padding-bottom: 2rem;
 }
 
 main .content i,
