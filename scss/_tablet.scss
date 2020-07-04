@@ -6,15 +6,24 @@
   main {
     .content {
       grid-template-columns: 1fr;
-      padding-top: 5rem;
+      padding-top: 4rem;
+      grid-gap: 2rem;
     }
 
     .bottom {
-      .bottom-nav-links {
-        justify-content: stretch;
+      .bottom-content {
+        grid-gap: 1.5rem;
 
-        .bottom-link {
-          margin-left: 10vw;
+        .subscribe {
+          .subscribe-form {
+            .email-bar {
+              padding: 0.4rem 0 0.4rem 0.3rem;
+            }
+
+            .send-btn {
+              padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+            }
+          }
         }
       }
     }

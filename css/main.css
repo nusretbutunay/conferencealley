@@ -146,7 +146,7 @@ body {
 }
 
 .top-nav .navbar-brand {
-  color: #ccc;
+  color: #eee;
 }
 
 .top-nav .navbar-brand span {
@@ -196,7 +196,6 @@ main .showcase .search-area {
 }
 
 main .showcase .search-area .search-form {
-  width: 100%;
   margin-top: 0.2rem;
 }
 
@@ -213,7 +212,7 @@ main .showcase .search-area .search-form .search-btn {
   padding: 0.5rem 1rem;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  color: #ccc;
+  color: #eee;
   border: 0;
 }
 
@@ -230,7 +229,7 @@ main .showcase .call-to-action-btn {
 
 main .showcase .call-to-action-btn:hover {
   background-color: #666;
-  color: #ccc;
+  color: #eee;
 }
 
 main .content {
@@ -257,6 +256,10 @@ main .content h5 {
   margin: 0.8rem 0;
 }
 
+main .detailed-content {
+  color: #eee;
+}
+
 main .detailed-content div * {
   margin-bottom: 1rem;
 }
@@ -267,12 +270,12 @@ main .detailed-content button {
   background-color: #fff;
   border: 0;
   outline: none;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 main .detailed-content .detail-image {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
@@ -309,7 +312,7 @@ main .bottom {
   padding-top: 3rem;
   padding-bottom: 3rem;
   width: 100%;
-  color: #ccc;
+  color: #eee;
 }
 
 main .bottom .bottom-nav {
@@ -331,7 +334,7 @@ main .bottom .bottom-nav img {
 }
 
 main .bottom .bottom-nav .bottom-link {
-  color: #ccc;
+  color: #eee;
 }
 
 main .bottom .bottom-nav .bottom-link:hover {
@@ -350,7 +353,7 @@ main .bottom .bottom-content .subscribe .subscribe-form .email-bar {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   padding: 0.4rem 3rem 0.4rem 0.5rem;
-  color: #ccc;
+  color: #eee;
 }
 
 main .bottom .bottom-content .subscribe .subscribe-form .email-bar:focus {
@@ -363,7 +366,7 @@ main .bottom .bottom-content .subscribe .subscribe-form .send-btn {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   padding: 0.4rem 1.5rem 0.4rem 1.5rem;
-  color: #ccc;
+  color: #eee;
 }
 
 main .bottom .bottom-content .subscribe .subscribe-form .send-btn:hover {
@@ -412,6 +415,43 @@ footer p {
   .top-nav .navbar-nav {
     width: 250px;
   }
+  main .showcase {
+    height: 100vh;
+  }
+  main .showcase .search-area {
+    padding: 2rem 2rem 2rem 0.6rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 400px;
+  }
+  main .showcase .search-area .search-form .search-bar {
+    padding: 0.5rem 4rem;
+  }
+  main .showcase .search-area .search-form .search-btn {
+    padding: 0.5rem 0.4rem;
+  }
+  main .bottom .bottom-nav .bottom-nav-links {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .bottom .bottom-content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  footer .social-links {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -421,14 +461,16 @@ footer p {
   main .content {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    padding-top: 5rem;
+    padding-top: 4rem;
+    grid-gap: 2rem;
   }
-  main .bottom .bottom-nav-links {
-    -webkit-box-pack: stretch;
-        -ms-flex-pack: stretch;
-            justify-content: stretch;
+  main .bottom .bottom-content {
+    grid-gap: 1.5rem;
   }
-  main .bottom .bottom-nav-links .bottom-link {
-    margin-left: 10vw;
+  main .bottom .bottom-content .subscribe .subscribe-form .email-bar {
+    padding: 0.4rem 0 0.4rem 0.3rem;
+  }
+  main .bottom .bottom-content .subscribe .subscribe-form .send-btn {
+    padding: 0.4rem 0.5rem 0.4rem 0.5rem;
   }
 }

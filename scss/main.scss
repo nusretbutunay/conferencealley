@@ -73,7 +73,6 @@ main {
       align-items: flex-start;
 
       .search-form {
-        width: 100%;
         margin-top: 0.2rem;
 
         .search-bar {
@@ -134,6 +133,8 @@ main {
   }
 
   .detailed-content {
+    color: $text-color-1;
+
     div * {
       margin-bottom: 1rem;
     }
@@ -144,12 +145,12 @@ main {
       background-color: $bg-color-3;
       border: 0;
       outline: none;
-      border-radius: 2px;
+      border-radius: 3px;
     }
 
     .detail-image {
-      width: 250px;
-      height: 250px;
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
     }
 

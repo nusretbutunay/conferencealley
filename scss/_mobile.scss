@@ -8,4 +8,50 @@
       width: 250px;
     }
   }
+
+  main {
+    .showcase {
+      height: 100vh;
+
+      .search-area {
+        padding: 2rem 2rem 2rem 0.6rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+        width: 400px;
+
+        .search-form {
+          .search-bar {
+            padding: 0.5rem 4rem;
+          }
+
+          .search-btn {
+            padding: 0.5rem 0.4rem;
+          }
+        }
+      }
+    }
+
+    .bottom {
+      .bottom-nav {
+        .bottom-nav-links {
+          flex-wrap: wrap;
+        }
+      }
+
+      .bottom-content {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .social-links {
+      width: 30%;
+      margin-bottom: 1rem;
+    }
+  }
 }
