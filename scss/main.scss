@@ -46,7 +46,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 10rem;
+    padding-top: 12rem;
     text-align: center;
 
     &::before {
@@ -170,7 +170,7 @@ main {
       background-color: #99a5a6;
 
       .detailed-btn-b {
-        color: $text-color-4;
+        color: #99a5a6;
 
         &:hover {
           background-color: rgba(255, 255, 255, 0.7);
@@ -180,6 +180,14 @@ main {
 
     &.detailed-c {
       background-color: $bg-color-2;
+
+      .detailed-btn-c {
+        color: $text-color-4;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.7);
+        }
+      }
     }
   }
 

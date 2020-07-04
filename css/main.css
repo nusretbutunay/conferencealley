@@ -165,7 +165,7 @@ main .showcase {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 10rem;
+  padding-top: 12rem;
   text-align: center;
 }
 
@@ -296,7 +296,7 @@ main .detailed-content.detailed-b {
 }
 
 main .detailed-content.detailed-b .detailed-btn-b {
-  color: #519cd8;
+  color: #99a5a6;
 }
 
 main .detailed-content.detailed-b .detailed-btn-b:hover {
@@ -305,6 +305,14 @@ main .detailed-content.detailed-b .detailed-btn-b:hover {
 
 main .detailed-content.detailed-c {
   background-color: #519cd8;
+}
+
+main .detailed-content.detailed-c .detailed-btn-c {
+  color: #519cd8;
+}
+
+main .detailed-content.detailed-c .detailed-btn-c:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 main .bottom {
@@ -421,6 +429,7 @@ footer p {
   }
   main .showcase {
     height: 100vh;
+    padding-top: 15rem;
   }
   main .showcase h1 {
     max-width: 90%;
