@@ -443,7 +443,8 @@ footer p {
             justify-content: center;
   }
   main .bottom .bottom-nav .bottom-nav-links .bottom-link {
-    margin-right: 1.4rem;
+    margin-right: 1.3rem;
+    font-size: 0.9rem;
   }
   main .bottom .bottom-content {
     -ms-grid-columns: 1fr;
