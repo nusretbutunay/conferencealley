@@ -26,10 +26,11 @@
         padding: 2rem 2rem 2rem 0.6rem;
         margin: 0 auto;
         margin-top: 1rem;
-        width: 80%;
+        width: 90%;
 
         .search-form {
           .search-bar {
+            padding: 0.5rem 4rem;
             width: 80%;
           }
 
@@ -43,12 +44,11 @@
     .bottom {
       .bottom-nav {
         .bottom-nav-links {
-          justify-content: center;
-
-          .bottom-link {
-            margin-right: 1.3rem;
-            font-size: 0.9rem;
-          }
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          height: 50px;
+          font-size: 0.9rem;
         }
       }
 
@@ -58,6 +58,13 @@
         & > * {
           margin-bottom: 1.5rem;
         }
+      }
+    }
+
+    .detailed-content {
+      .detail-image {
+        width: 100px;
+        height: 100px;
       }
     }
   }
@@ -70,6 +77,12 @@
     .social-links {
       width: 30%;
       margin-bottom: 1rem;
+    }
+
+    p {
+      span {
+        display: block;
+      }
     }
   }
 }
