@@ -417,6 +417,7 @@ footer p {
   }
   .top-nav .navbar-nav {
     width: 250px;
+    padding-top: 1rem;
   }
   main .showcase {
     height: 100vh;
