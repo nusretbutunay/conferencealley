@@ -40,7 +40,7 @@ main {
   .showcase {
     position: relative;
     top: 10%;
-    height: 75vh;
+    height: 85vh;
     width: 100%;
     background-image: url("/img/conference.jpg");
     background-position: center;
@@ -124,6 +124,10 @@ main {
       text-align: center;
       color: $text-color-3;
       padding-bottom: 2rem;
+
+      @media screen and (min-width: 1024px) {
+        display: none;
+      }
     }
 
     i,

@@ -1,4 +1,8 @@
 @media screen and (max-width: 768px) {
+  .display-none-mobile {
+    display: none;
+  }
+
   .top-nav {
     flex-direction: column;
     height: 85px;
@@ -34,12 +38,20 @@
     .bottom {
       .bottom-nav {
         .bottom-nav-links {
-          flex-wrap: wrap;
+          justify-content: center;
+
+          .bottom-link {
+            margin-right: 1.4rem;
+          }
         }
       }
 
       .bottom-content {
         grid-template-columns: 1fr;
+
+        & > * {
+          margin-bottom: 1.5rem;
+        }
       }
     }
   }
