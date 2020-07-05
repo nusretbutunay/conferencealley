@@ -9,7 +9,6 @@ body {
   position: fixed;
   background-color: $bg-color-1;
   height: 60px;
-  width: 100%;
   z-index: 99;
 
   .navbar-nav {
@@ -17,7 +16,7 @@ body {
   }
 
   .nav-link {
-    color: #fff;
+    color: $text-color-1;
 
     &:hover {
       color: #333;
@@ -28,7 +27,6 @@ body {
     color: $text-color-1;
 
     span {
-      display: block;
       padding-left: 0.5rem;
       font-weight: 500;
       font-size: 1.6em;
@@ -39,15 +37,10 @@ body {
 main {
   .showcase {
     position: relative;
-    top: 10%;
-    height: 85vh;
-    width: 100%;
-    background-image: url("../img/conference.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 32rem;
+    background: url("../img/conference.jpg") no-repeat center;
     background-size: cover;
     padding-top: 12rem;
-    text-align: center;
 
     &::before {
       position: absolute;
@@ -56,12 +49,12 @@ main {
       height: 100%;
       width: 100%;
       content: "";
-      background-color: #000;
-      opacity: 0.7;
+      background-color: $bg-color-4;
+      opacity: 0.8;
     }
 
     h1 {
-      color: #fff;
+      color: $text-color-1;
       font-size: 1.5rem;
     }
 
@@ -118,11 +111,9 @@ main {
     padding-top: 2rem;
     padding-bottom: 6rem;
     grid-gap: 10%;
-    text-align: center;
 
     h2 {
       grid-column: 1 / -1;
-      text-align: center;
       color: $text-color-3;
     }
 
@@ -195,12 +186,11 @@ main {
     background-color: $bg-color-4;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    width: 100%;
     color: $text-color-1;
 
     .bottom-nav {
-      border-top: 1px solid #ccc;
-      border-bottom: 1px solid #ccc;
+      border-top: 1px solid $border-color;
+      border-bottom: 1px solid $border-color;
       position: relative;
       margin-bottom: 3rem;
       padding: 0.6rem;
@@ -209,10 +199,10 @@ main {
         position: absolute;
         top: -10%;
         left: 46.8%;
-        border: 1px solid #ccc;
+        border: 1px solid $border-color;
         padding: 0.3rem;
         border-radius: 50%;
-        background-color: #000;
+        background-color: $bg-color-4;
       }
 
       .bottom-link {
@@ -231,8 +221,8 @@ main {
       .subscribe {
         .subscribe-form {
           .email-bar {
-            background-color: #000;
-            border: 1px solid #ccc;
+            background-color: $bg-color-4;
+            border: 1px solid $border-color;
             border-top-left-radius: 4px;
             border-bottom-left-radius: 4px;
             padding: 0.4rem 3rem 0.4rem 0.5rem;
@@ -245,7 +235,7 @@ main {
 
           .send-btn {
             background-color: #666;
-            border: 1px solid #ccc;
+            border: 1px solid $border-color;
             border-top-right-radius: 4px;
             border-bottom-right-radius: 4px;
             padding: 0.4rem 1.5rem 0.4rem 1.5rem;

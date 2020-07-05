@@ -133,7 +133,6 @@ body {
   position: fixed;
   background-color: #d35749;
   height: 60px;
-  width: 100%;
   z-index: 99;
 }
 
@@ -142,7 +141,7 @@ body {
 }
 
 .top-nav .nav-link {
-  color: #fff;
+  color: #eee;
 }
 
 .top-nav .nav-link:hover {
@@ -154,7 +153,6 @@ body {
 }
 
 .top-nav .navbar-brand span {
-  display: block;
   padding-left: 0.5rem;
   font-weight: 500;
   font-size: 1.6em;
@@ -162,15 +160,10 @@ body {
 
 main .showcase {
   position: relative;
-  top: 10%;
-  height: 85vh;
-  width: 100%;
-  background-image: url("../img/conference.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 32rem;
+  background: url("../img/conference.jpg") no-repeat center;
   background-size: cover;
   padding-top: 12rem;
-  text-align: center;
 }
 
 main .showcase::before {
@@ -181,11 +174,11 @@ main .showcase::before {
   width: 100%;
   content: "";
   background-color: #000;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 main .showcase h1 {
-  color: #fff;
+  color: #eee;
   font-size: 1.5rem;
 }
 
@@ -246,12 +239,10 @@ main .content {
   padding-top: 2rem;
   padding-bottom: 6rem;
   grid-gap: 10%;
-  text-align: center;
 }
 
 main .content h2 {
   grid-column: 1 / -1;
-  text-align: center;
   color: #d35749;
 }
 
@@ -323,7 +314,6 @@ main .bottom {
   background-color: #000;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  width: 100%;
   color: #eee;
 }
 
@@ -611,7 +601,7 @@ footer p {
     width: 90%;
   }
   main .showcase .search-area .search-form .search-bar {
-    padding: 0.5rem 4rem;
+    padding: 0.711rem 4rem 0.54rem 1rem;
     width: 80%;
   }
   main .showcase .search-area .search-form .search-btn {
