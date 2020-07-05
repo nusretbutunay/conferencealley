@@ -87,11 +87,12 @@
       font-weight: normal;
     }
 
-    .learn-more {
+    .more-info {
       display: block;
       position: absolute;
       top: 80%;
-      left: 40%;
+      left: 50%;
+      transform: translateX(-50%);
       background-color: $bg-color-2;
       padding: 0.3rem 0.5rem;
       color: $text-color-1;
@@ -99,25 +100,6 @@
 
       &:hover {
         opacity: 0.9;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .filter-section {
-    h1 {
-      text-align: center;
-    }
-
-    .filter-group {
-      flex-direction: column;
-      align-items: flex-start;
-
-      button {
-        &:last-child {
-          
-        }
       }
     }
   }
