@@ -76,11 +76,12 @@ main {
         margin-top: 0.2rem;
 
         .search-bar {
-          padding: 0.711rem 7.5rem 0.54rem 7.5rem;
+          padding: 0.711rem 14rem 0.54rem 1rem;
           border-bottom-left-radius: 4px;
           border-top-left-radius: 4px;
           background-color: $bg-color-3;
           border: 0;
+          outline: none;
         }
 
         .search-btn {

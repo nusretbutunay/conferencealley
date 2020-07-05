@@ -200,11 +200,12 @@ main .showcase .search-area .search-form {
 }
 
 main .showcase .search-area .search-form .search-bar {
-  padding: 0.711rem 7.5rem 0.54rem 7.5rem;
+  padding: 0.711rem 14rem 0.54rem 1rem;
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
   background-color: #fff;
   border: 0;
+  outline: none;
 }
 
 main .showcase .search-area .search-form .search-btn {
