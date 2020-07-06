@@ -18,7 +18,7 @@ In this project:
 ## Live Demo
 
 ​
-[Live Demo Link](https://raw.githack.com/nusretbutunay/conferencealley/review/index.html)
+[Live Demo Link](https://raw.githack.com/nusretbutunay/conferencealley/master/index.html)
 ​
 
 ## Walkthrough video of the project in action
