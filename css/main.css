@@ -185,7 +185,7 @@ main .showcase h1 {
 }
 
 main .showcase .search-area {
-  padding: 2rem 2rem 2rem 0.6rem;
+  padding: 2rem 2rem 2rem 2rem;
   margin-top: 1rem;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 5px;
@@ -613,23 +613,33 @@ footer p {
   }
   main .showcase {
     height: 100vh;
-    padding-top: 15rem;
+    padding-top: 10rem;
   }
   main .showcase h1 {
     max-width: 90%;
   }
   main .showcase .search-area {
-    padding: 2rem 2rem 2rem 0.6rem;
+    width: 80%;
     margin: 0 auto;
     margin-top: 1rem;
-    width: 90%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .showcase .search-area .search-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   main .showcase .search-area .search-form .search-bar {
-    padding: 0.711rem 4rem 0.54rem 1rem;
     width: 80%;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
   }
   main .showcase .search-area .search-form .search-btn {
     padding: 0.5rem 0.4rem;
+    border-radius: 3px;
   }
   main .bottom .bottom-nav .bottom-nav-links {
     -webkit-box-orient: vertical;

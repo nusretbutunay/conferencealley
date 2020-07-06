@@ -17,26 +17,30 @@
   main {
     .showcase {
       height: 100vh;
-      padding-top: 15rem;
+      padding-top: 10rem;
 
       h1 {
         max-width: 90%;
       }
 
       .search-area {
-        padding: 2rem 2rem 2rem 0.6rem;
+        width: 80%;
         margin: 0 auto;
         margin-top: 1rem;
-        width: 90%;
+        align-items: center;
 
         .search-form {
+          flex-direction: column;
+
           .search-bar {
-            padding: 0.711rem 4rem 0.54rem 1rem;
             width: 80%;
+            border-radius: 3px;
+            margin-bottom: 0.5rem;
           }
 
           .search-btn {
             padding: 0.5rem 0.4rem;
+            border-radius: 3px;
           }
         }
       }
