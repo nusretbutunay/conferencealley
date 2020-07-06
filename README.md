@@ -18,7 +18,7 @@ In this project:
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/nusretbutunay/conferencealley/details/index.html)
+[Live Demo Link](https://raw.githack.com/nusretbutunay/conferencealley/review/index.html)
 ​
 
 ## Getting Started
@@ -27,7 +27,6 @@ To get a local copy of the repository please run the following commands on your 
 
 $ cd <folder>
 $ git clone https://github.com/nusretbutunay/conferencealley.git
-​
 
 ## Authors
 
