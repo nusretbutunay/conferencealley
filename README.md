@@ -21,6 +21,10 @@ In this project:
 [Live Demo Link](https://raw.githack.com/nusretbutunay/conferencealley/review/index.html)
 ​
 
+## Walkthrough video of the project in action
+
+[Video link](https://www.loom.com/share/9fff1c38fecc4db1856c00297a00ebac)
+
 ## Getting Started
 
 To get a local copy of the repository please run the following commands on your terminal:
