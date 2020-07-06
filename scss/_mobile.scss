@@ -33,14 +33,15 @@
           flex-direction: column;
 
           .search-bar {
-            width: 80%;
+            width: 100%;
             border-radius: 3px;
             margin-bottom: 0.5rem;
           }
 
           .search-btn {
-            padding: 0.5rem 0.4rem;
+            padding: 0.5rem 0;
             border-radius: 3px;
+            width: 100%;
           }
         }
       }
