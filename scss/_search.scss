@@ -51,6 +51,8 @@
 
       &:hover {
         opacity: 0.8;
+
+        @include transition;
       }
     }
   }
@@ -100,6 +102,8 @@
 
       &:hover {
         opacity: 0.9;
+
+        @include transition;
       }
     }
   }

@@ -102,12 +102,6 @@
   z-index: 1;
 }
 
-button,
-a,
-input[type="button"] {
-  cursor: pointer;
-}
-
 *,
 *::before,
 *::after {
@@ -123,6 +117,12 @@ a {
 
 li {
   list-style: none;
+}
+
+button,
+a,
+input[type="button"] {
+  cursor: pointer;
 }
 
 body {
@@ -146,6 +146,8 @@ body {
 
 .top-nav .nav-link:hover {
   color: #333;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .top-nav .navbar-brand {
@@ -216,6 +218,8 @@ main .showcase .search-area .search-form .search-btn {
 
 main .showcase .search-area .search-form .search-btn:hover {
   background-color: #519cd8;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 main .showcase .call-to-action-btn {
@@ -228,6 +232,8 @@ main .showcase .call-to-action-btn {
 main .showcase .call-to-action-btn:hover {
   background-color: #666;
   color: #eee;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 main .content {
@@ -284,6 +290,8 @@ main .detailed-content.detailed-a .detailed-btn-a {
 
 main .detailed-content.detailed-a .detailed-btn-a:hover {
   background-color: rgba(255, 255, 255, 0.7);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 main .detailed-content.detailed-b {
@@ -296,6 +304,8 @@ main .detailed-content.detailed-b .detailed-btn-b {
 
 main .detailed-content.detailed-b .detailed-btn-b:hover {
   background-color: rgba(255, 255, 255, 0.7);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 main .detailed-content.detailed-c {
@@ -308,6 +318,8 @@ main .detailed-content.detailed-c .detailed-btn-c {
 
 main .detailed-content.detailed-c .detailed-btn-c:hover {
   background-color: rgba(255, 255, 255, 0.7);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 main .bottom {
@@ -341,6 +353,8 @@ main .bottom .bottom-nav .bottom-link {
 
 main .bottom .bottom-nav .bottom-link:hover {
   color: #d35749;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 main .bottom .bottom-content {
@@ -373,6 +387,8 @@ main .bottom .bottom-content .subscribe .subscribe-form .send-btn {
 
 main .bottom .bottom-content .subscribe .subscribe-form .send-btn:hover {
   background-color: #999;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 main .bottom .bottom-content .subscribe .subscribe-form .send-btn:focus {
@@ -399,6 +415,8 @@ footer .social-links .social-link {
 
 footer .social-links .social-link:hover {
   color: #d35749;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 footer p {
@@ -461,6 +479,8 @@ footer p {
 
 .filter-section .filter-group button:hover {
   opacity: 0.8;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .search-results-section {
@@ -512,6 +532,8 @@ footer p {
 
 .search-results-section .search-result .more-info:hover {
   opacity: 0.9;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .details-section {
@@ -559,6 +581,8 @@ footer p {
 
 .details-section button:hover {
   background-color: #aaa;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .details-section .map-heading {

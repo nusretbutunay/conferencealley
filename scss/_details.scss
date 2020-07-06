@@ -42,6 +42,8 @@
 
     &:hover {
       background-color: #aaa;
+
+      @include transition;
     }
   }
 

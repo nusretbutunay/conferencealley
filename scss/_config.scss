@@ -25,3 +25,13 @@ a {
 li {
   list-style: none;
 }
+
+button,
+a,
+input[type="button"] {
+  cursor: pointer;
+}
+
+@mixin transition {
+  transition: all 0.5s ease-in-out;
+}

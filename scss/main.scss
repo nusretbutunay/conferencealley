@@ -20,6 +20,8 @@ body {
 
     &:hover {
       color: #333;
+
+      @include transition;
     }
   }
 
@@ -87,6 +89,8 @@ main {
 
           &:hover {
             background-color: $bg-color-2;
+
+            @include transition;
           }
         }
       }
@@ -101,6 +105,8 @@ main {
       &:hover {
         background-color: #666;
         color: $text-color-1;
+
+        @include transition;
       }
     }
   }
@@ -153,6 +159,8 @@ main {
 
         &:hover {
           background-color: rgba(255, 255, 255, 0.7);
+
+          @include transition;
         }
       }
     }
@@ -165,6 +173,8 @@ main {
 
         &:hover {
           background-color: rgba(255, 255, 255, 0.7);
+
+          @include transition;
         }
       }
     }
@@ -177,6 +187,8 @@ main {
 
         &:hover {
           background-color: rgba(255, 255, 255, 0.7);
+
+          @include transition;
         }
       }
     }
@@ -210,6 +222,8 @@ main {
 
         &:hover {
           color: $text-color-3;
+
+          @include transition;
         }
       }
     }
@@ -243,6 +257,8 @@ main {
 
             &:hover {
               background-color: #999;
+
+              @include transition;
             }
 
             &:focus {
@@ -272,6 +288,8 @@ footer {
 
       &:hover {
         color: $text-color-3;
+
+        @include transition;
       }
     }
   }
