@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+$text-color-1: #eee;
+$text-color-2: #000;
+$text-color-3: #d35749;
+$text-color-4: #519cd8;
+$bg-color-1: #d35749;
+$bg-color-2: #519cd8;
+$bg-color-3: #fff;
+$bg-color-4: #000;
+$border-color: #ccc;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button,
+a,
+input[type="button"] {
+  cursor: pointer;
+}
+
+@mixin transition {
+  transition: all 0.5s ease-in-out;
+}
